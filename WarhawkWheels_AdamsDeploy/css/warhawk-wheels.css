@@ -1,0 +1,375 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 30, 2016, 1:01:33 PM
+    Author     : Arandap
+*/
+html
+{
+    font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+
+header
+{
+    background-color: #422d5d;
+    width:100%; 
+    margin-bottom: 5%;
+}
+
+footer
+{
+    position:absolute;
+    height:auto;
+    width: 100%;
+    background-color: #422d5d;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+img
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+body
+{
+    background-color: #999999;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    margin-bottom: -25%;
+}
+
+center
+{
+    margin-bottom: auto;
+}
+
+form
+{
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right:25%;
+    margin-bottom: 20px;
+    text-align: center;
+    border: solid;
+    background-color: #ededd3;
+}
+
+label
+{
+    font-weight: bold;
+    margin: 10px;
+}
+
+input
+{
+    margin: 10px;
+    width: available;
+}
+
+table
+{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+    border: solid;
+    background-color: #ededd3;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #ffffff;
+}
+
+td, th
+{
+    border-right: groove;
+}
+
+tr:first-child
+{
+     text-decoration: underline;
+}
+
+h1
+{
+    font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #333333;
+    margin-top: -25px;
+}
+
+h2
+{
+    font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: #333333;
+}
+
+h3
+{
+    font-family: "Helvetica Neue Italic", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+
+h4
+{
+    font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+h5
+{
+    font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+h6
+{
+    font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #333333;
+}
+
+p
+{
+    font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+footer h3, p
+{
+    color: #ffffff;
+}
+
+a
+{
+    color: #ffffff;
+}
+
+.hiddenForm
+{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+}
+
+.hiddenForm .green, .hiddenForm .red
+{
+    margin: 0;
+    width: 50%;
+}
+
+.selectedDay
+{
+    background-color: #422d5d;
+    border-color: #1d1429;
+    color: #ffffff;
+}
+
+.left
+{
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.error
+{
+    color: red;
+    font-style: italic;
+}
+
+.center
+{
+    text-align: center;
+}
+
+#footerLeft
+{
+    width:50%;
+    float: left;
+}
+
+#marginFooterLeft
+{
+    margin-left: 50%;
+}
+
+#marginFooterRight
+{
+    margin-left: 15%;
+}
+
+#footerRight
+{
+    width: 50%;
+    float: left;
+}
+
+.accordion 
+{
+    -webkit-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
+    -moz-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
+    box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #191d23;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 21px;
+    margin: 0 auto;
+    height: auto;
+    width: 850px;
+}
+
+.accordion > ul > li,
+.accordion-title,
+.accordion-content,
+.accordion-separator 
+{
+    float: none;
+}
+
+.accordion > ul > li 
+{
+    background-color: #353332;
+    margin-right: -0px;
+    margin-bottom: -300px;
+}
+
+.accordion-select:checked ~ .accordion-separator 
+{
+    margin-right: 0px;
+    margin-bottom: 300px;
+}
+
+.accordion-title,
+.accordion-select  
+{
+    background-color: #4c5157;
+    color: #ffffff;
+    width: 98%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.accordion-title span 
+{
+    margin-bottom: 20px; 
+    margin-left: 20px;
+}
+
+.accordion-select:hover ~ .accordion-title,
+.accordion-select:checked ~ .accordion-title 
+{
+    background-color: #5689b2;
+}
+
+.accordion-title span  
+{	
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-writing-mode: lr-tb;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+    margin-bottom: 0px;
+    line-height: 40px;
+}
+
+.accordion-content 
+{
+    background-color: #ffffff;
+    color: #4c5157;
+    height: 236px;
+    width: 98%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.accordion-content table
+{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 95%;
+}
+
+.accordion-title,
+.accordion-select:checked ~ .accordion-content 
+{
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.accordion 
+{
+    overflow: hidden;
+}
+
+.accordion > ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 101%;
+}
+
+.accordion > ul > li,
+.accordion-title 
+{
+    position: relative;
+}
+
+.accordion-select 
+{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.accordion-title span 
+{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.accordion-content 
+{
+    position: relative;
+    overflow: auto;
+}
+
+.accordion-separator 
+{
+    transition: margin 0.3s ease 0.1s;
+    -o-transition: margin 0.3s ease 0.1s;
+    -moz-transition: margin 0.3s ease 0.1s;
+    -webkit-transition: margin 0.3s ease 0.1s;
+}
