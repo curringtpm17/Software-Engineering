@@ -1,0 +1,30 @@
+/* include style rules */
+#footer { background-color: #660066; color: #fff; }
+#top-title, #footer { text-align: center;}
+.t-title { color : #fff;}
+a.t-title:hover { color: #eee;}
+#content { min-height: 300px; }
+#outerbox { margin: 0; padding: 0;}
+
+.p-items { border: 2px solid  #ddd; margin-bottom: 10px;  padding: 5px}
+
+#sign-out {display: none;}
+#logos{margin-top: 15px;}
+img#uww-logo{margin-bottom: 14px; width: 300px;}
+
+img#cs-logo{padding-top: 8px;}
+#r-img { padding-top: 5px; text-align: right; font-size: 20px; font-weight: 700;}
+#info-box { margin: 0; padding: 5px; height: 30px;
+        background-color: #660066; color: #fff ; text-align: center; }
+.thead { color: #fff; background-color: #666; font-weight: bold;}
+.displaylink { display: block;}
+.hidelink { display: none; }
+li {margin-top: 10px; }
+.c-title { font-weight: bold }
+.course-list { margin-bottom: 10px; border-bottom: 1px solid #333}
+
+#myDIV { display: none;}
+#rideInfoTable { width: 50%;}
+#van1InfoTable { width: 50%;}
+#van2InfoTable { width: 50%;}
+#van3InfoTable { width: 50%;}
